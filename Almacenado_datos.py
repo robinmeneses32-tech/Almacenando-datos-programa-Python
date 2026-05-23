@@ -6,6 +6,8 @@ Fecha: Mayo de 2026.
 Codigo fuente: Autoria propia
 Problema 1 : Una matriz almacena datos de sesiones de clientes con el 
 formato: [ID Cliente, Duración (segundos), Eventos Clics]. 
+Herramienta para evaluar el nivel de compromiso de 
+cada sesión. 
 """
 sesiones = [
     {"id": 100, "duracion": 245, "clics": 12},
