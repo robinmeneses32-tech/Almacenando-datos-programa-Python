@@ -30,12 +30,12 @@ print(".....COMPROMISO DE SESIONES.....")
     
 for sesion in sesiones:
 
-    id = sesion["id"]
+    id_cliente = sesion["id"]
     duracion = sesion["duracion"]
     clics = sesion["clics"]
 
     clasificacion = clasificar_compromiso(duracion, clics)
 
-    print("Cliente:", id,
+    print("Cliente:", id_cliente,
           "- Clasificación:", clasificacion)
     
